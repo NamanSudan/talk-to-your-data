@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "repl-nix-naturalqueryai"
+version = "0.1.0"
+description = "Natural language to SQL query system"
+authors = ["Replit User <replituser@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+pandas = ">=2.2.3"
+plotly = ">=5.24.1"
+rich = ">=13.9.4"
+streamlit = ">=1.41.1"
+vanna = ">=0.7.5"
+flask = ">=3.1.0"
+flask-sock = ">=0.7.0"
+flasgger = ">=0.9.7.1"
+sqlalchemy = ">=2.0.36"
+tabulate = ">=0.9.0"
+kaleido = "0.2.1"
+vllm = "^0.6.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
